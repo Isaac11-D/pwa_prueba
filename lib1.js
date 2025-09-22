@@ -14,7 +14,7 @@ class Quickchart {
         let cadunos = "";
         for (let i = 0; i < this.d; i++) {
             cadunos += "1,";
-        }
+        }   
         cadunos = cadunos.slice(0, -1);
         return cadunos;
     }
